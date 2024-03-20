@@ -1,0 +1,15 @@
+Today, I learned how to use CSS selectors to target specific elements, like:
+- Targeting an element by its ID: `#mainTopic { color: blue; }`
+- Styling all elements with a universal selector: `* { text-align: center; }`
+- Applying styles to multiple elements with a class selector: `.content { background: cornflowerblue; color: white; }`
+- Using element selectors to style headings: `h1, h3 { font-family: georgia; }`
+- Applying hover effects to buttons within a div: `div button:hover { background-color: yellow; color: blue; }`
+- Targeting elements based on their relationship in the HTML structure: `p:nth-of-type(2n+1) { color: yellow; }`
+- Styling the first letter of a heading: `h1::first-letter { color: red; }`
+- Applying styles based on user interaction, like checked checkboxes: `#yes:checked + label { color: darkgreen; }`
+- Styling specific types of inputs: `input[type="text"] { color: red; }` and `input[type="password"] { color: green; }`
+- Targeting elements adjacent to each other in the HTML: `.a + button { background-color: cornflowerblue; }`
+- Adding styles to elements with a specific class: `.end a { color: rgb(6, 0, 128); }`
+- Applying styles to elements based on their position: `.post:nth-last-of-type(2) { background-color: #b92b27; }`
+- Styling the first line of a paragraph: `p::first-line { color: purple; }`
+- Applying hover effects to headings: `h3:hover { text-decoration: none; }`
